@@ -5,7 +5,7 @@ void main(List<String> arguments) {
 
   int Age = 18;
 
-  const String anime = " Well , Attack on titan of course";
+  const String anime = " Well , AOT of course";
 
   // bool isOpen = true ;
 
