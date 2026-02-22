@@ -12,4 +12,14 @@ void main(List<String> arguments) {
   print(
     "Heyyy, my name is $Name ,I am a little young you know , I am $Age , and my favortie anime was HXH , but now $anime",
   );
+
+  final greeting = greet("Soso, YAYA, WASSI ", 18) ; 
+  print(greeting) ;
+}
+
+
+greet (String name, int age) {
+
+return "our names are $name and we are $age years old" ; 
+
 }
