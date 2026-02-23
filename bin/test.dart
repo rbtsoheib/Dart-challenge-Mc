@@ -7,7 +7,6 @@ void main(List<String> arguments) {
 
   //   const String anime = " Well , AOT of course";
 
-
   //   print(
   //     "Heyyy, my name is $Name ,I am a little young you know , I am $Age , and my favortie anime was HXH , but now $anime",
   //   );
@@ -25,21 +24,25 @@ void main(List<String> arguments) {
 
   // for (String name in ["soheib", "yassine", "wassim"]) {
   //   print("the name is : $name");
-  // } 
+  // }
   // for (String Names in {"Taharfiletypes" , "soheibslabyrinth" , "rt.soheiv" }) {
-  //   print("the chosen names are $Names") ; 
+  //   print("the chosen names are $Names") ;
   // }
 
-  var name = "Sexyass-soheib" ; 
-  print(name) ; 
-  final name2 = "Soheib" ; 
-  print(name2) ; 
+  // var name = "Sexyass-soheib" ;
+  // print(name) ;
+  // final name2 = "Soheib" ;
+  // print(name2) ;
 
+  int age = 18;
 
+  print(age + 10);
+  print(age - 34);
+  print(age * 3);
+  print(age / 3.5);
+  print(age % 10);
 
-
-
-  }
+}
 
   // greet (String name, int age) {
 
