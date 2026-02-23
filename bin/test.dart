@@ -31,13 +31,12 @@ void main(List<String> arguments) {
   // }
 
   var name = "Sexyass-soheib" ; 
-  name = "Soheib" ; 
   print(name) ; 
-
-  const name2 = "Tahar" ; 
-  name2 = "Taharfiletypes" ;
-
+  final name2 = "Soheib" ; 
   print(name2) ; 
+
+
+
 
 
   }
