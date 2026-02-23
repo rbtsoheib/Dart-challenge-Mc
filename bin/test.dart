@@ -15,13 +15,8 @@ void main(List<String> arguments) {
 
     final greeting = greet("Soso, YAYA, WASSI ", 18) ;
     print(greeting) ;
-  }
 
-  greet (String name, int age) {
-
-  return "our names are $name and we are $age years old" ;
-
-  for (int i = 0; i < 5; i++) {
+   for (int i = 0; i < 5; i++) {
     print("The value of i is: $i");
   }
 
@@ -35,4 +30,12 @@ void main(List<String> arguments) {
   for (String Names in {"Taharfiletypes" , "soheibslabyrinth" , "rt.soheiv" }) {
     print("the chosen names are $Names") ; 
   }
+
+  }
+
+  greet (String name, int age) {
+
+  return "our names are $name and we are $age years old" ;
+
+ 
 }
