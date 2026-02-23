@@ -1,25 +1,39 @@
+
 void main(List<String> arguments) {
-  print("hello world");
+  //   print("hello world");
 
-  String Name = "Soheib l3ziiiiiz";
+  //   String Name = "Soheib l3ziiiiiz";
 
-  int Age = 18;
+  //   int Age = 18;
 
-  const String anime = " Well , AOT of course";
+  //   const String anime = " Well , AOT of course";
 
-  // bool isOpen = true ;
+  //   // bool isOpen = true ;
 
-  print(
-    "Heyyy, my name is $Name ,I am a little young you know , I am $Age , and my favortie anime was HXH , but now $anime",
-  );
+  //   print(
+  //     "Heyyy, my name is $Name ,I am a little young you know , I am $Age , and my favortie anime was HXH , but now $anime",
+  //   );
 
-  final greeting = greet("Soso, YAYA, WASSI ", 18) ; 
-  print(greeting) ;
-}
+  //   final greeting = greet("Soso, YAYA, WASSI ", 18) ;
+  //   print(greeting) ;
+  // }
 
+  // greet (String name, int age) {
 
-greet (String name, int age) {
+  // return "our names are $name and we are $age years old" ;
 
-return "our names are $name and we are $age years old" ; 
+  for (int i = 0; i < 5; i++) {
+    print("The value of i is: $i");
+  }
 
+  for (double s = 2.0; s < 10.0; s++) {
+    print("the value of s is : $s");
+  }
+
+  for (String name in ["soheib", "yassine", "wassim"]) {
+    print("the name is : $name");
+  } 
+  for (String Names in {"Taharfiletypes" , "soheibslabyrinth" , "rt.soheiv" }) {
+    print("the chosen names are $Names") ; 
+  }
 }
