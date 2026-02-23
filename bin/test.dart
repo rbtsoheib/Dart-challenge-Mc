@@ -7,7 +7,6 @@ void main(List<String> arguments) {
 
     const String anime = " Well , AOT of course";
 
-    // bool isOpen = true ;
 
     print(
       "Heyyy, my name is $Name ,I am a little young you know , I am $Age , and my favortie anime was HXH , but now $anime",
