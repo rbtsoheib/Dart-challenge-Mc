@@ -1,7 +1,7 @@
 void main(List<String> arguments) {
   //   print("hello world");
 
-  //   String Name = "Soheib l3ziiiiiz";
+  //   String name = "Soheib l3ziiiiiz";
 
   //   int Age = 18;
 
@@ -42,6 +42,8 @@ void main(List<String> arguments) {
   print(age / 3.5);
   print(age % 10);
 
+  String Name = "Soheib";
+  print("the name is $Name");
 }
 
   // greet (String name, int age) {
